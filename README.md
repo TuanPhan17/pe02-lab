@@ -29,7 +29,18 @@ Each exercise is built as part of the **main menu program**, allowing the user t
 - Uses a `while` loop to calculate and print each following number  
 - Demonstrates variable updates (`first`, `second`, `next_number`) and counting logic  
 
-🕓 **Next up:** Stage of Life, Movie Ticket, and Pattern Printing.
+✅ **3. Stage of Life Classifier**  
+- Prompts the user for their age  
+- Uses an `if-elif-else` chain to determine which life stage they fall under:  
+  - `< 2` → Baby  
+  - `2–3` → Toddler  
+  - `4–12` → Kid  
+  - `13–19` → Teenager  
+  - `20–64` → Adult  
+  - `65+` → Elder  
+- Reinforces logical comparisons and clean condition ordering  
+
+🕓 **Next up:** Movie Ticket Pricing and Pattern Printing programs.
 
 ---
 
@@ -38,5 +49,6 @@ Each exercise is built as part of the **main menu program**, allowing the user t
 2. Run the program in your terminal:
    ```bash
    python3 PE02.py
+
 
 
