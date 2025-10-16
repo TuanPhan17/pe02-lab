@@ -38,3 +38,44 @@ if choice == 1:
             print("NOT PRIME")
 
 
+# Fibonacci pseudocode
+# how many fibonacci numbers to generate
+#store number
+#start w/ two numbers 0 & 1 - first two in sequence
+#if user wants 1 number , print 0
+#otherwise, print 0 & 1 as starting numbers
+# Use loop to keep adding last two numbers together to make next one.
+#each time calculating new number , print it 
+#Keep doing that until printed as many numbers as user asked 
+
+elif choice == 2:
+    # --- Fibonacci Number Program ---
+    number = int(input("How many Fibonacci numbers do you want to generate? ")) # input number
+
+    if number <= 0: #if input invalid
+        print("Enter positve number")
+
+    elif number == 1: #if user wants 1 number
+        print("0")
+
+    else:
+        first = 0
+        second = 1  #Start w/ first two numbers in sequence 
+        
+        print(first)
+        print(second)
+
+        # USING LOOP TO GENERATE REST 
+        count = 2 # already printed 2 numbers 
+
+        while count < number: 
+            next_number = first + second #calculating next number 
+
+            print(next_number)
+
+            first = second
+            second = next_number #updating two previous numbers 
+
+            count += 1 # increase counter
+
+
