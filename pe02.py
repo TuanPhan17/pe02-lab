@@ -54,28 +54,40 @@ elif choice == 2:
 
     if number <= 0: #if input invalid
         print("Enter positve number")
-
     elif number == 1: #if user wants 1 number
         print("0")
 
     else:
         first = 0
         second = 1  #Start w/ first two numbers in sequence 
-        
         print(first)
         print(second)
-
+        
         # USING LOOP TO GENERATE REST 
         count = 2 # already printed 2 numbers 
-
-        while count < number: 
+        while count < number:  # keep looping until we've generated the number of Fibonacci numbers the user asked for
             next_number = first + second #calculating next number 
-
             print(next_number)
-
             first = second
             second = next_number #updating two previous numbers 
-
             count += 1 # increase counter
+
+elif choice == 3:
+    # --- Stage of Life ---
+
+    person_age = int(input("How old is the person? "))
+
+    if person_age < 2:  # If the person is less than 2 years old
+        print("Person is a baby.")
+    elif person_age < 4:  # If the person is at least 2 but less than 4
+        print("Person is a toddler.")
+    elif person_age < 13:  # If the person is at least 4 but less than 13
+        print("Person is a kid.")
+    elif person_age < 20:  # If the person is at least 13 but less than 20
+        print("Person is a teenager.")
+    elif person_age < 65:  # If the person is at least 20 but less than 65
+        print("Person is an adult.")
+    else:  # If the person is age 65 or older
+        print("Person is an elder.")
 
 
