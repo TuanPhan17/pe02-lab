@@ -7,48 +7,37 @@
 ---
 
 ## 📘 Overview
-This lab contains multiple beginner-level Python exercises demonstrating the use of:
+This lab contains multiple beginner level Python exercises demonstrating the use of:  
 - Variables and simple data types  
 - User input  
 - Conditional statements (`if`, `elif`, `else`)  
 - Loops (`for`, `while`)  
 
-Each exercise is built as part of the **main menu program**, allowing the user to select which section to run.
+Each exercise is part of a **main menu program**, allowing the user to select which section to run.
 
 ---
 
-## 🧠 Current Progress
-✅ **1. Prime Number Checker**  
-- Prompts the user for a number  
-- Checks if it’s prime or not using a simple loop  
-- Outputs “PRIME” or “NOT PRIME” accordingly  
+## 🧠 Completed Programs
 
-✅ **2. Fibonacci Sequence Generator**  
-- Asks the user how many Fibonacci numbers to generate  
-- Starts with 0 and 1, the first two numbers in the sequence  
-- Uses a `while` loop to calculate and print each following number  
-- Demonstrates variable updates (`first`, `second`, `next_number`) and counting logic  
+✅ **1. Prime Number Checker** – Checks if a number entered by the user is prime or not using a simple loop and conditional logic.  
 
-✅ **3. Stage of Life Classifier**  
-- Prompts the user for their age  
-- Uses an `if-elif-else` chain to determine which life stage they fall under:  
-  - `< 2` → Baby  
-  - `2–3` → Toddler  
-  - `4–12` → Kid  
-  - `13–19` → Teenager  
-  - `20–64` → Adult  
-  - `65+` → Elder  
-- Reinforces logical comparisons and clean condition ordering  
+✅ **2. Fibonacci Sequence Generator** – Generates a sequence of Fibonacci numbers based on how many the user wants.  
 
-🕓 **Next up:** Movie Ticket Pricing and Pattern Printing programs.
+✅ **3. Stage of Life Classifier** – Determines a person’s stage of life (baby, kid, teen, adult, elder) based on their age input.  
+
+✅ **4. Movie Ticket Pricing** – Uses a loop to ask for age and outputs the correct movie ticket price or “free” if under 3.  
+
+✅ **5. Pattern Printing Program** – Prints a star pattern using nested loops, building each row one star at a time.  
 
 ---
 
 ## 🖥️ How to Run
-1. Clone this repository or download the file.  
-2. Run the program in your terminal:
+1. Clone this repository or download the `.py` file.  
+2. Open a terminal or command prompt.  
+3. Run the program using:
    ```bash
    python3 PE02.py
+
 
 
 
